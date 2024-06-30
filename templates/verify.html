@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Verify Code</title>
+</head>
+<body>
+    <h1>Verify Code</h1>
+    <form method="POST">
+        Code: <input type="text" name="code" required>
+        <input type="hidden" name="email" value="{{ email }}">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
